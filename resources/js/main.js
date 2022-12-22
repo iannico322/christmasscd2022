@@ -5,8 +5,13 @@ $(window).on('load',function(){
     $(".container").fadein(1000);
 })
 let music = document.querySelector(".music")
-music.play();
 
+
+
+setTimeout(function(){
+    music.play();
+
+}, 3000); 
 
 
 function christmasCountDown(){
