@@ -17,15 +17,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./resources/css/snow.css">
-    <link rel="stylesheet" href="./resources/css/sign.css">
+    <link rel="stylesheet" href="./resources/css/fireworks.css">
     <title>2022 Christmas</title>
   </head>
 
 
-  <body class="click" style="cursor: pointer;">
+  <body>
     <div class="loading"><div class="lds-ripple">Caulin Family</div></div>
     
-   
+    <div class="fire-display">
+      <div class="firework"></div>
+<div class="firework"></div>
+<div class="firework"></div>
+    </div>
+    <div class="bg">
+      <img src="./resources/media/img/image2.jpg" alt="">
+    </div>
+    
 
     
     <div class="container">
@@ -83,22 +91,32 @@
         <div class="snowflake"></div>
         <div class="snowflake"></div>
       </div>
-      <div class="wrapper">
-        <div class="letters"><span class="letter">M</span><span class="letter">E</span><span class="letter">R</span><span class="letter">R</span><span class="letter">Y</span><span class="letter"> </span><span class="letter">C</span><span class="letter">H</span><span class="letter">R</span><span class="letter">I</span><span class="letter">S</span><span class="letter">T</span><span class="letter">M</span><span class="letter">A</span><span class="letter">S</span><span class="letter">.</span><span class="letter">
+      <div class="count-down">
+        <h2 class="label">Christmas Count Down</h2>
+        <div class="countdown">
+          <div>
+            <span class="days"></span>
+            <p >days</p>
+          </div>
+          
+          <div>
+            <span class="hours"></span>
+            <p >hours</p>
+          </div>
+          <div>
+            <span class="minutes"></span>
+            <p >minutes</p>
+          </div>
+          <div>
+            <span class="seconds"></span>
+            <p >seconds</p>
+          </div>
         </div>
-        <p>Click Anywhere to proceed</p>
       </div>
-      <a href="main.html" class="link"></a>
-      
+      <audio class="music" autoplay loop src="./resources/media/audio/christmassong.mp3"></audio>
+
     </div>
 
     <script src="resources/js/main.js"></script>
-    <script>
-      let cc = document.querySelector('.click')
-      let link = document.querySelector('.link')
-      cc.addEventListener('click',()=>{
-        link.click()
-      })
-    </script>
   </body>
 </html>

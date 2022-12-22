@@ -1,3 +1,4 @@
+
 $(window).on('load',function(){
     $(".loading").fadeOut(2000);
     
@@ -6,7 +7,7 @@ $(window).on('load',function(){
 let music = document.querySelector(".music")
 music.play();
 
-setInterval( christmasCountDown, 1000);
+
 
 function christmasCountDown(){
 var targetDate = new Date("December 25, 2022");
@@ -46,9 +47,11 @@ if(distance < 00){
 
 
 }
+}
+setInterval( christmasCountDown, 1000);
 // Update the countdown element on the page
 
-}
+
 
 
 

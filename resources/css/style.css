@@ -63,6 +63,11 @@ body {
   flex-wrap: wrap;
 }
 
+.count-down a {
+  text-decoration: none;
+  color: #b71a3b;
+}
+
 .count-down h2 {
   font-size: 3rem;
   margin: 0;
