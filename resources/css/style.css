@@ -76,6 +76,7 @@ body {
 }
 
 .count-down .greet {
+  text-align: center;
   font-size: 10rem;
   color: #b71a3b;
   font-weight: 800;
@@ -114,6 +115,9 @@ body {
 }
 
 @media (max-width: 1096px) {
+  .count-down .greet {
+    font-size: 9rem;
+  }
   .count-down h2 {
     font-size: 3rem;
     color: #bc6d4c;
@@ -125,6 +129,9 @@ body {
 }
 
 @media (max-width: 905px) {
+  .count-down .greet {
+    font-size: 8rem;
+  }
   .count-down h2 {
     font-size: 2.8rem;
     color: #bc6d4c;
@@ -132,6 +139,9 @@ body {
 }
 
 @media (max-width: 785px) {
+  .count-down .greet {
+    font-size: 8rem;
+  }
   .count-down h2 {
     font-size: 2.8rem;
     color: #bc6d4c;
@@ -145,6 +155,9 @@ body {
 }
 
 @media (max-width: 532px) {
+  .count-down .greet {
+    font-size: 5rem;
+  }
   .count-down h2 {
     font-size: 2.2rem;
     color: #bc6d4c;
@@ -158,6 +171,9 @@ body {
 }
 
 @media (max-width: 427px) {
+  .count-down .greet {
+    font-size: 4rem;
+  }
   .count-down h2 {
     font-size: 1.5rem;
     color: #bc6d4c;
