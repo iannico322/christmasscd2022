@@ -10,6 +10,7 @@
 body{
     margin: 0;
     background-image: linear-gradient(to right top, #ffffff, #fafafa, #f5f5f5, #f1f1f1, #ececec);
+   
     height: 100vh;
     overflow: hidden;
     width: 100%;
@@ -65,6 +66,7 @@ body{
         font-size: 3rem;
         margin: 0;
         color:#bc6d4c ;
+        
         text-align: center;
     }
     .greet{
@@ -72,7 +74,7 @@ body{
         color: #b71a3b;
         font-weight: 800;
        
-        animation: blink 5s ease-in-out infinite;
+        animation: blink 10s ease-in-out infinite;
     
    
     
@@ -197,25 +199,24 @@ body{
     0%{
         filter: hue-rotate(0deg);
     }
-    22%,
-    36%,
-    75% {
+    22%{
         
       color: #b71a3b;
       text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
         -0.2rem 0.1rem 1rem #8aa89f, 0.2rem 0.1rem 1rem #e2073369,
         0 -0.5rem 2rem #ff2428, 0 0.5rem 3rem #ff244c;
     }
-    28%,
-    33% {
-        filter: hue-rotate(60deg);
-      color: #b71a3b;
-      text-shadow: none;
-    }
-    82%,
-    97% {
+    40%{
         filter: hue-rotate(350deg);
-      color: #b71a3b;
+      color: #ffffff;
+      text-shadow: 0 0 0.1rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #8aa89f, 0.2rem 0.1rem 1rem #e2073369,
+        0 -0.5rem 2rem #ff2428, 0 0.5rem 3rem #ff244c;
+    }
+   
+    100% {
+        filter: hue-rotate(350deg);
+      color: #ffffff;
       text-shadow: 0 0 0.1rem #ffe6ff, 0 0 1.5rem #ff65bd,
         -0.2rem 0.1rem 1rem #8aa89f, 0.2rem 0.1rem 1rem #e2073369,
         0 -0.5rem 2rem #ff2428, 0 0.5rem 3rem #ff244c;

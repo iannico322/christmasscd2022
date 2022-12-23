@@ -37,6 +37,10 @@ if(distance < 00){
    
     
     document.querySelector(".label").innerHTML = "Merry Christmas"
+    document.querySelector(".label").style.color = "white"
+
+    document.querySelector(".bg").style.backgroundColor = "#b71a3b"
+    document.querySelector(".img").style.opacity = ".4"
     document.querySelector(".fire-display").style.display = "block";
     var greet = document.querySelector(".countdown")
     greet.className += " greet"
