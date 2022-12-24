@@ -7,6 +7,10 @@
   transition: 600ms ease-in-out;
 }
 
+.vid {
+  display: none;
+}
+
 body {
   margin: 0;
   background-image: linear-gradient(to right top, #ffffff, #fafafa, #f5f5f5, #f1f1f1, #ececec);

@@ -4,12 +4,12 @@ $(window).on('load',function(){
     
     $(".container").fadein(1000);
 })
-let music = document.querySelector(".music")
+let musicvid = document.querySelector(".vid")
 
 
 
 setTimeout(function(){
-    music.play();
+    musicvid.play();
 
 }, 3000); 
 
@@ -47,7 +47,8 @@ if(distance < 00){
     greet.innerHTML = "Caulin Family";
     
     setTimeout(function() {
-        music.src = "./resources/media/audio/alliwant.mp3"     
+        let music = document.querySelector(".music")
+   
         music.play()     
         console.log("sing")            
     }, 1000);
